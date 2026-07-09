@@ -29,6 +29,11 @@ BCS404-Titanic-Project/
 
 4. How to Run
 1. Install required libraries:
+pandas -> Data Handling
+matplotlip, seaborn -> Visualization
+scikit-learn -> Machine Learning
+jupyter -> Notebook/Environment
+
 2. Open `titanic_dataset.ipynb` in Jupyter Notebook or VS Code
 3. Run all cells to generate the charts and the report
 
