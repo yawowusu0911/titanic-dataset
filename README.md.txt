@@ -1,5 +1,3 @@
-# BCS 404: Titanic Survival Analysis
-
 Name: Ofosu-Manu Yaw
 Student ID: 01254377B
 Course: BCS 404 - Introduction to Data Science with Python
