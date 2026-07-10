@@ -88,11 +88,14 @@ sns.heatmap(numeric_data.corr(), annot=True, cmap='coolwarm', fmt=".2f")
 plt.title("Correlation Heatmap")
 plt.tight_layout()
 plt.show()
+print(" Interpretation: Pclass and Fare had the strongest relationship with survival. Lower class and lower fare = lower survival rate")
+
 
 # 6. Pairplot
 sns.pairplot(numeric_data)
 plt.suptitle("Pairplot of Numerical Variables", y=1.02)
 plt.show()
+print(" Interpretation: Survivors were mostly in 1st Class and paid higher fares. Pclass and Fare clearly separate survivors from non-survivors.")
 
 
 # TASK 4: STATISTICAL ANALYSIS
