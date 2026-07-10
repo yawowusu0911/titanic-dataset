@@ -21,7 +21,6 @@ BCS404-Titanic-Project/
 ├── titanic_dataset.py                 # Python script version of the code
 ├── titanic_dataset.csv                # Dataset
 ├── BCS404_Titanic_Final_Report.pdf  # Final report in PDF
-├── BCS404_Titanic_Final_Report.docx # Final report in Word
 └── README.md                  # This file
 
 
