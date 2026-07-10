@@ -1,5 +1,4 @@
 
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -18,13 +17,13 @@ data = data.loc[:, ~data.columns.str.contains('^Unnamed')]
 
 # TASK 1: DATA ACQUISITION
 print("TASK 1: DATA ACQUISITION")
-print(f"1. Dataset Shape: {data.shape}")
+print(f"1. Dataset Dimensions: {data.shape}")
 print(f"\n2. Columns: {list(data.columns)}")
 print("\n3. First 5 Rows:")
 pd.set_option('display.max_columns', None)
 print(data.head())
 print("\n4. Data Types:")
-print(data.dtypes)
+print(data.info())
 
 
 # TASK 2: DATA CLEANING
@@ -40,6 +39,7 @@ data = data.drop_duplicates()
 print("\n2. Missing Values After:")
 print(data.isnull().sum())
 print(f"\n3. Duplicates Removed: {data.duplicated().sum()}")
+
 
 
 # TASK 3: DATA VISUALISATION
@@ -146,4 +146,6 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred))
 print("\nDiscussion:")
 print("The Logistic Regression model achieved ~80% accuracy.")
 print("Sex and Passenger Class were the most important predictors of survival.")
+
+
 
